@@ -1,15 +1,32 @@
-# ganapatih-be
+# Next.js 15 Backend Project
 
-To install dependencies:
+## 🚀 Project Overview
 
-```bash
-bun install
-```
+Ini adalah backend express yang menggunakan Bun 1.1.43 sebagai package manager dan runtime.
 
-To run:
+## 🛠️ Instalasi
 
-```bash
-bun run index.ts
-```
+Pastikan telah menginstal **Bun** sebelum menjalankan proyek ini.
 
-This project was created using `bun init` in bun v1.1.43. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+1. Clone repositori:
+   ```sh
+   git clone https://github.com/rianabd01/ganapatih-be.git
+   cd ganapatih-be
+   ```
+2. Instal dependensi:
+   ```sh
+   bun install
+   ```
+3. Konfigurasi Environment:
+   Buat file `.env` dan isi dengan konfigurasi berikut:
+
+   ```env
+   SOCRATA_API_URL=https://data.cityofnewyork.us/resource/gkne-dk5s.json
+   PORT=5000
+
+   ```
+
+4. Jalankan server pengembangan:
+   ```sh
+   bun run dev
+   ```
